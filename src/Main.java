@@ -5,6 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
+    int a;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -19,6 +20,7 @@ public class Main {
                 }
 
         }
+        System.out.println(new Main().a);
 
     }
 }
